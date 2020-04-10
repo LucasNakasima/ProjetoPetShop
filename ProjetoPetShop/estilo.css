@@ -1,0 +1,39 @@
+.cabecalho{
+	display: inline-flex;
+}
+
+.titulo{
+	padding-left: 22rem;
+}
+
+.padding-b{
+	padding-bottom: 3%;
+}
+
+.corpo{
+	text-align: center;
+}
+
+.logo{
+	width:150px;
+}
+
+.div-produto{
+	text-align: center;
+}
+
+.foto-propaganda{
+	width: 800px;
+}
+
+.produtos{
+	display: inline-flex;
+}
+
+.foto-racao{
+	width: 300px
+}
+
+.racao{
+	margin-left: 30px;
+}

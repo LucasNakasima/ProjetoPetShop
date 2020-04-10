@@ -1,0 +1,72 @@
+<html>
+
+<head>
+	<title> PETSHOP </title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+</head>
+
+<body>
+			<header>
+				<div class="cabecalho padding-b">
+					<img class="logo" src="E:\Donwload\Faculdade\Programação Web\ProjetoPetShop\logo.png"></img>
+					<h1 class="titulo"> PETSHOP DO LUCAS </h1> 
+				</div>
+			</header>
+			
+			<div class="Menu padding-b">
+				<ul>
+					<li><a href = "#">Inicio</a></li>
+					<li><a href ="#produtos">Produtos</a></li>
+					<li><a href = "#">Serviços</a></li>
+					<li><a href = "#">Contato</a></li>
+				</ul>
+			</div>
+			
+			<div class="corpo padding-b">
+				<h1>Promoções</h2>
+				<figure>
+					<img class="foto-propaganda" src ="E:\Donwload\Faculdade\Programação Web\ProjetoPetShop\propaganda.jpg"/>
+				</figure>
+			</div>
+			
+			<div class="padding-b">	
+				<h1 class="padding-b div-produto">Produtos</h2>
+				<div class="produtos padding-b">
+					<div>					
+						<img class="foto-racao" onclick="AparecerValor()" src ="E:\Donwload\Faculdade\Programação Web\ProjetoPetShop\racao.jpg"/>
+					</div>
+					<div class="racao">
+						<h3>Ração Boa<h3>
+						<p id="value">Valor: R$300,00<p>
+					</div>
+				</div>
+			</div>
+			
+			<script>
+				function AparecerValor(){
+					document.getElementById("value").style.display = "block";
+				}
+			</script>
+		</body>
+		
+		<footer>
+		<h2>Contato</h2>
+		<p><strong>Email: </strong>lucaquinhasXd@hotmail.com<p>
+		<p><strong>Telefone: </strong>(44)31355-5364<p>
+		</footer>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
